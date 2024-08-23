@@ -1,0 +1,322 @@
+/* Navbar */
+
+.navbar{
+    display: block;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    padding: 0 16px;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .navbar li{
+    display: inline-block;
+  }
+  
+  .navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .navbar ul li:last-child a{
+    color: #ba9a45;
+    font-weight: bold;
+  }
+  
+  /* Alternative Navbar */
+  
+  /* .navbar{
+    display: block;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    padding: 0 16px;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li{
+    float: left;
+  }
+  
+  .navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+  } */
+  
+  /* Title */
+  
+  .title-background{
+    background-color: black;
+    padding: 100px;
+  }
+  
+  /* Headings */
+  
+  .main-heading{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 70.6px;
+    font-weight: bold;
+    color: #ba9a45;
+  }
+  
+  .subheading{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-family: "Cardo", sans-serif;
+    font-size: 23.5px;
+    color: #fff;
+    padding-top: 30px;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Features */
+  
+  .features{
+    position: relative;
+  }
+  
+  .feature-box{
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  
+  .feature-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+  
+  .feature-box p{
+    font-family: "Cardo", serif;
+    text-align: center;
+    margin-bottom: 0;
+    color: #737373;
+  }
+  
+  /* Membership */
+  
+  .membership-background{
+    background-color: #000;
+    padding: 100px;
+  }
+  
+  .membership-title-top{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ba9a45;
+  }
+  
+  .membership-title-bottom{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ba9a45;
+    margin-bottom: 30px;
+  }
+  
+  .membership-description{
+    font-family: "Cardo", serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .membership-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .membership-alignment{
+    margin: auto;
+  }
+  
+  .join-button{
+    text-align: center;
+  }
+  
+  /* Private Room */
+  
+  .private-room-background{
+    background-color: #fff;
+    padding: 100px;
+  }
+  
+  .private-room-title-top{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ba9a45;
+  }
+  
+  .private-room-title-bottom{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ba9a45;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .private-room-description{
+    font-family: "Cardo", serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #737373;
+    margin-bottom: 0;
+  }
+  
+  .private-room-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .private-room-alignment{
+    margin: auto;
+  }
+  
+  /* Party */
+  
+  .party-background{
+    background-color: #000;
+    padding: 100px;
+  }
+  
+  .party-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ba9a45;
+    padding: 0;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+  }
+  
+  .party-description{
+    font-family: "Cardo", serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .party-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .party-alignment{
+    margin: auto;
+  }
+  
+  /* Footer */
+  
+  footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-icon{
+    padding: 20px 10px;
+  }
+  
+  /* Copyright */
+  
+  .copyright{
+    display: block;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    text-align: right;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Media Query */
+  
+  @media screen and (max-width: 480px), (max-width: 768px), (max-width: 1024px){
+  
+    .feature-box p{
+      margin-bottom: 40px;
+    }
+  
+    p.feature-description{
+      margin-bottom: 0;
+    }
+  
+    /* Images */
+  
+    .membership-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .private-room-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
+    }
+  
+    .party-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .join-button{
+      margin-bottom: 40px;
+    }
+  
+    .private-room-image{
+      margin-bottom: 40px;
+    }
+  
+    .party-description{
+      margin-bottom: 40px;
+    }
+  
+  }
+  
