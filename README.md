@@ -2,7 +2,7 @@
 
 ## Screenshots:
 ### 1- Screenshot-1
-![](./Screenshots/Screenshot-1.PNG)
+![](./Screenshots/Screenshot-1.png)
 
 ### 2- Screenshot-2
 ![](./Screenshots/Screenshot-2.PNG)
